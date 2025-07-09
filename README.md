@@ -21,7 +21,7 @@ https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
-[https://leetcode.com/problems/max-consecutive-ones-iii/description/](https://leetcode.com/problems/permutation-in-string/description/)
+[https://leetcode.com/problems/permutation-in-string/description/](https://leetcode.com/problems/permutation-in-string/description/)
 
 https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
