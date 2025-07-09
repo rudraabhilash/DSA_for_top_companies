@@ -33,10 +33,17 @@ https://leetcode.com/problems/number-of-substrings-containing-all-three-characte
 
 https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
 
-https://leetcode.ca/all/340.html - Hard
 
-https://leetcode.com/problems/subarrays-with-k-different-integers/description/ - Hard
+Other questions - 
 
-https://leetcode.com/problems/minimum-window-substring/description/ - Hard
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/
 
-https://leetcode.ca/all/727.html - Hard
+https://leetcode.com/discuss/post/136523/sliding-window-algorithm-template-to-sol-i4az/
+
+https://leetcode.com/discuss/post/5831547/sliding-window-cheat-sheet-by-monika_15f-01kw/
+
+https://leetcode.com/discuss/post/490184/sliding-window-understanding-the-pattern-gffb/
+
+92 Medium level problems - 
+
+https://leetcode.com/problem-list/sliding-window/
