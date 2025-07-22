@@ -47,3 +47,20 @@ https://leetcode.com/discuss/post/490184/sliding-window-understanding-the-patter
 92 Medium level problems - 
 
 https://leetcode.com/problem-list/sliding-window/
+
+
+Two pointer sliding window pattern or prefix sum map pattern
+
+https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+https://leetcode.com/problems/binary-subarrays-with-sum/description/
+
+https://leetcode.com/problems/count-number-of-nice-subarrays
+
+https://leetcode.com/problems/contiguous-array/description/
+
+https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/
+
+https://leetcode.com/problems/subarray-product-less-than-k/
+
+
