@@ -1,12 +1,10 @@
-Sliding window technique -
-
-Theory - Articles
+**Theory - Articles**
 
 [https://www.scaler.com/topics/sliding-window-algorithm/](https://www.scaler.com/topics/sliding-window-algorithm/)
 
 [https://www.geeksforgeeks.org/window-sliding-technique/](https://www.geeksforgeeks.org/window-sliding-technique/)
 
-Questions -
+**Questions -**
 
 [https://www.geeksforgeeks.org/smallest-subarray-containing-minimum-and-maximum-values/](https://www.geeksforgeeks.org/smallest-subarray-containing-minimum-and-maximum-values/)
 
@@ -22,17 +20,11 @@ Questions -
 
 [https://leetcode.com/problems/longest-repeating-character-replacement/description/](https://leetcode.com/problems/longest-repeating-character-replacement/description/)
 
-[https://leetcode.com/problems/binary-subarrays-with-sum/description/](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
-
-[https://leetcode.com/problems/count-number-of-nice-subarrays/description/](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
-
-[https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
-
 [https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)
 
-Other questions -
-
 [https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/)
+
+**Posts - **
 
 [https://leetcode.com/discuss/post/136523/sliding-window-algorithm-template-to-sol-i4az/](https://leetcode.com/discuss/post/136523/sliding-window-algorithm-template-to-sol-i4az/)
 
