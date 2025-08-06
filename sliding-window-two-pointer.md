@@ -24,7 +24,7 @@
 
 [https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/)
 
-**Posts - **
+**Posts -**
 
 [https://leetcode.com/discuss/post/136523/sliding-window-algorithm-template-to-sol-i4az/](https://leetcode.com/discuss/post/136523/sliding-window-algorithm-template-to-sol-i4az/)
 
