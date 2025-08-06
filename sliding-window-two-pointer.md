@@ -47,14 +47,28 @@ Other questions -
 
 Two pointer sliding window pattern or prefix sum map pattern
 
-[https://leetcode.com/problems/subarray-sum-equals-k/description/](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+- [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
-[https://leetcode.com/problems/binary-subarrays-with-sum/description/](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
+- [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
 
-[https://leetcode.com/problems/count-number-of-nice-subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays)
+- [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays)
 
-[https://leetcode.com/problems/contiguous-array/description/](https://leetcode.com/problems/contiguous-array/description/)
+- [Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)
 
-[https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/)
+- [Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/)
 
-[https://leetcode.com/problems/subarray-product-less-than-k/](https://leetcode.com/problems/subarray-product-less-than-k/)
+- [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+
+- [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
+
+- [Number of Sub-arrays of Size K and Average Greater Than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/)
+
+- [Longest Subarray of 1s After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)
+
+- [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)
+
+- [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/)
+
+- [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)
+
+- [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/description)
