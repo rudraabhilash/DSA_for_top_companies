@@ -33,11 +33,9 @@
 [https://leetcode.com/discuss/post/490184/sliding-window-understanding-the-pattern-gffb/](https://leetcode.com/discuss/post/490184/sliding-window-understanding-the-pattern-gffb/)
 
 
-92 Medium level problems -
+**92 Medium level problems -**
 
 [https://leetcode.com/problem-list/sliding-window/](https://leetcode.com/problem-list/sliding-window/)
-
-Two pointer sliding window pattern or prefix sum map pattern
 
 - [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
