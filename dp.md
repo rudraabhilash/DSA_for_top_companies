@@ -1,4 +1,4 @@
-Inclusion/exclusion pattern
+**Inclusion/exclusion pattern**
 
 - [Subset Sum Problem (DP-25) – GeeksforGeeks](https://www.geeksforgeeks.org/dsa/subset-sum-problem-dp-25/)
 - [Partition Equal Subset Sum – LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/description/)
@@ -14,3 +14,24 @@ Inclusion/exclusion pattern
 
 
 
+
+
+
+
+
+
+
+**String DP**
+
+[https://leetcode.com/problems/longest-palindromic-subsequence/description/](https://leetcode.com/problems/longest-palindromic-subsequence/description/)  
+[https://leetcode.com/problems/longest-palindromic-substring/](https://leetcode.com/problems/longest-palindromic-substring/)  
+[https://leetcode.com/problems/longest-common-subsequence/](https://leetcode.com/problems/longest-common-subsequence/)  
+[https://www.geeksforgeeks.org/dsa/longest-common-substring-dp-29/](https://www.geeksforgeeks.org/dsa/longest-common-substring-dp-29/)  
+[https://leetcode.com/problems/palindromic-substrings/](https://leetcode.com/problems/palindromic-substrings/)  
+[https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)  
+[https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)  
+[https://www.geeksforgeeks.org/dsa/minimum-number-deletions-make-string-palindrome/](https://www.geeksforgeeks.org/dsa/minimum-number-deletions-make-string-palindrome/)  
+[https://www.geeksforgeeks.org/dsa/minimum-number-deletions-insertions-transform-one-string-another/](https://www.geeksforgeeks.org/dsa/minimum-number-deletions-insertions-transform-one-string-another/)  
+[https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/?slug=longest-palindromic-subsequence-after-at-most-k-operations&region=global_v2](https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/description/?slug=longest-palindromic-subsequence-after-at-most-k-operations&region=global_v2)  
+[https://www.geeksforgeeks.org/count-palindrome-sub-strings-string-set-2/](https://www.geeksforgeeks.org/count-palindrome-sub-strings-string-set-2/)  
+[https://www.geeksforgeeks.org/count-palindrome-sub-strings-string/#better-approach1-using-memoization-on2-time-and-on2-space](https://www.geeksforgeeks.org/count-palindrome-sub-strings-string/#better-approach1-using-memoization-on2-time-and-on2-space)  
