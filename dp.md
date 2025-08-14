@@ -40,14 +40,15 @@
 
 
 **Grid DP**
-- [Unique Paths](https://leetcode.com/problems/unique-paths/description/) - Count paths in an m x n grid using DP.
-- [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - Count paths in a grid with obstacles.
-- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) - Find the minimum sum path in a grid.
-- [Triangle](https://leetcode.com/problems/triangle/description/) - Minimum path sum from top to bottom of a triangle.
-- [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/) - Minimum falling path sum in a matrix.
-- [3-D DP Ninja and His Friends](https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/) - Max chocolates collected by two traversing ninjas.
-- [Ninja’s Training](https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/) - Max points by choosing daily activities.
-- [Count Paths with Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/description/) - Count paths in a grid with given XOR value.
-- [House Robber II](https://leetcode.com/problems/house-robber-ii/) - Max loot without robbing adjacent houses in a circle.
-- [Maximum Energy Boost from Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/) - Maximize energy gain from two drink types.
-- [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/) - Max money collection by robot moving in grid.
+- [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+- [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)
+- [Triangle](https://leetcode.com/problems/triangle/description/)
+- [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+- [3-D DP Ninja and His Friends](https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/)
+- [Ninja’s Training](https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/)
+- [Count Paths with Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/description/)
+- [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [Maximum Energy Boost from Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)
+- [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)
+
