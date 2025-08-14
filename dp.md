@@ -1,3 +1,8 @@
+**1d DP**
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [Decode Ways](https://leetcode.com/problems/decode-ways/description/)
+
+
 **Inclusion/exclusion pattern**
 
 - [Subset Sum Problem (DP-25) – GeeksforGeeks](https://www.geeksforgeeks.org/dsa/subset-sum-problem-dp-25/)
