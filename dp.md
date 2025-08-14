@@ -52,3 +52,7 @@
 - [Maximum Energy Boost from Two Drinks](https://leetcode.com/problems/maximum-energy-boost-from-two-drinks/description/)
 - [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)
 
+
+**MCM or partition DP**
+- [Matrix Chain Multiplication](https://www.geeksforgeeks.org/dsa/matrix-chain-multiplication-dp-8/)
+- [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
