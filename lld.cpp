@@ -10,9 +10,9 @@ class Subject{
   int m_value;
   list<Observer*> views;
   public:
-    void attach(Observer *obs){views.push_back(obs);}
+    void attach(Observer *obs){views.push_back(obs);} //build list of observers
     void set_val(int value){m_value = value; notify();}
-    void notify()
+    void notify() //call some functionality of list of observers
     { list<Observer*>::iterator it = views.begin();
       while(it != views.end()){(*it)->update(m_value);++it;}
     }
@@ -20,8 +20,8 @@ class Subject{
 class DivObserver: public Observer
 {   int m_div;
   public:
-    DivObserver(Subject *model, int div){model->attach(this);m_div = div;}
-     void update(int v){cout<<v<<" div "<<m_div<<" is "<<v/m_div<<'\n';}
+    DivObserver(Subject *model, int div){model->attach(this);m_div = div;}//register this observer to subject
+     void update(int v){cout<<v<<" div "<<m_div<<" is "<<v/m_div<<'\n';}//operation to be performed
 };
 class ModObserver: public Observer
 {   int m_mod;
@@ -46,10 +46,10 @@ interface State {
     void pull(CeilingFanPullChain wrapper);
 }
 class CeilingFanPullChain {
-    private State currentState;
+    private State currentState;//state class object as data member
     public CeilingFanPullChain() {currentState = new Off();}
-    public void set_state(State s) {currentState = s;}
-    public void pull() {currentState.pull(this);}
+    public void set_state(State s) {currentState = s;}//setter function
+    public void pull() {currentState.pull(this);}//call different state operation via this fucntion
 }
 class Off implements State {
     public void pull(CeilingFanPullChain wrapper) {
