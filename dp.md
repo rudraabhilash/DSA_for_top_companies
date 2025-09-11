@@ -62,3 +62,7 @@
 **MCM or partition DP**
 - [Matrix Chain Multiplication](https://www.geeksforgeeks.org/dsa/matrix-chain-multiplication-dp-8/)
 - [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
+- 
+
+More problems - 
+https://leetcode.com/problems/longest-string-chain/description - LIS variation
