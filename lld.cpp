@@ -138,3 +138,82 @@ int main()
     delete oauthHandler;
     return 0;
 }
+
+/*
+************************************************************************************************************
+************************************************************************************************************
+*/
+/*Strategy design pattern*/
+#include <iostream>
+#include <memory> // For std::unique_ptr
+
+// Strategy Interface
+class SortingStrategy {
+public:
+    virtual void sort(int arr[], int size) = 0;
+    virtual ~SortingStrategy() = default;
+};
+
+// Concrete Strategy A: Bubble Sort
+class BubbleSortStrategy : public SortingStrategy {
+public:
+    void sort(int arr[], int size) override {
+        std::cout << "Sorting using Bubble Sort" << std::endl;
+        // Bubble sort implementation
+        for (int i = 0; i < size - 1; ++i) {
+            for (int j = 0; j < size - i - 1; ++j) {
+                if (arr[j] > arr[j + 1]) {
+                    std::swap(arr[j], arr[j + 1]);
+                }
+            }
+        }
+    }
+};
+
+// Concrete Strategy B: Quick Sort
+class QuickSortStrategy : public SortingStrategy {
+public:
+    void sort(int arr[], int size) override {
+        std::cout << "Sorting using Quick Sort" << std::endl;
+        // Quick sort implementation (simplified for example)
+        if (size > 1) {
+            // ... actual quick sort logic
+        }
+    }
+};
+
+// Context
+class Sorter {
+private:
+    std::unique_ptr<SortingStrategy> strategy_;
+
+public:
+    void setStrategy(std::unique_ptr<SortingStrategy> strategy) {
+        strategy_ = std::move(strategy);
+    }
+
+    void performSort(int arr[], int size) {
+        if (strategy_) {
+            strategy_->sort(arr, size);
+        } else {
+            std::cout << "No sorting strategy set." << std::endl;
+        }
+    }
+};
+
+// Client Code
+int main() {
+    Sorter sorter;
+    int data[] = {5, 2, 8, 1, 9};
+    int size = sizeof(data) / sizeof(data[0]);
+
+    // Use Bubble Sort
+    sorter.setStrategy(std::make_unique<BubbleSortStrategy>());
+    sorter.performSort(data, size);
+
+    // Change to Quick Sort at runtime
+    sorter.setStrategy(std::make_unique<QuickSortStrategy>());
+    sorter.performSort(data, size);
+
+    return 0;
+}
