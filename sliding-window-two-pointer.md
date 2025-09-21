@@ -1,3 +1,96 @@
+**Theory**
+[https://leetcode.com/problems/binary-subarrays-with-sum/](https://leetcode.com/problems/binary-subarrays-with-sum/)
+
+class Solution {
+public:
+    int f(vector<int>& nums , int goal){
+        int n = nums.size(); 
+        if(goal < 0) return 0;
+        int l = 0, r = 0;
+        int ans = 0, sum = 0;
+
+        while(r < n){
+            sum += nums[r];
+            while(sum > goal){ // let's start shrinking
+                sum -= nums[l++];
+            }
+            // this shrinking while loop is making sure that your condition (sum <= goal) is not violated.
+            ans = ans + (r - l + 1); 
+            // no of subarrays ending at r(b/w l & r) having prefix sum <= goal is f(goal)
+            r++;
+        }
+        return ans;
+    } 
+
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
+         return (f(nums, goal) - f(nums, goal - 1));
+    }
+
+    // 1+2+3+4+5 = 5*(5+1)/2 - we can figure out all subarrays like this by summing all subarray ending at i
+    // f(goal) => no of subarrays having sum <= goal (sum = 0,1,2)
+    // f(goal) - f(goal-1) = no of subarrays having sum = goal
+
+    /*
+    Example:
+    f(2) - no of subarrays such that sum <= 2 
+    f(1) - no of subarrays such that sum <= 1
+
+    f(2) = 1+2+3+4+4 = 14
+    f(1) = 1+2+2+3+2 = 10
+
+    sum=0 => {0}, {0} - 2
+    sum=1 => {1}, {1,0}, {0,1}, {0,1,0}, {1}, {1,0}, {0,1}, {1} - 8
+    sum=2 => {1,0,1}, {1,0,1,0}, {0,1,0,1}, {1,0,1} - 4
+
+    f(2) = 14
+    f(1) = 10
+    */
+
+    /*
+    Subarray breakdown:
+    1       - All the subarrays ending at this 1 -> 1
+    1,0     - All the subarrays ending at this 0 -> 2
+    1,0,1   - All the subarrays ending at this 1 -> 3 (101, 01, 1)
+    1,0,1,0 - All the subarrays ending at this 0 -> 4
+    0,1,0,1 - All the subarrays ending at this 1 -> 4
+    */
+
+    /***********************************************************
+    Sliding window technique:
+    Two ways to explore all subarrays of a problem:
+    1. All the subarrays ending at indices i -> (r-l+1) approach
+    2. All the subarrays starting at indices i -> (n-r) approach
+    ************************************************************/
+};
+
+/*
+---------------------------------------------------------------
+Second solution - Map method
+---------------------------------------------------------------
+
+class Solution {
+public:
+    int numSubarraysWithSum(vector<int>& nums, int k) {
+        unordered_map<int,int> mp;
+        int sum = 0;
+        mp[sum] = 1;
+        int count = 0;
+
+        for(auto i : nums){
+            sum += i;
+            if(mp.find(sum-k) != mp.end()){
+                count += mp[sum-k];
+            }
+            mp[sum]++;
+        }
+        return count;  
+    }
+};
+*/
+
+
+*****************************************************************************************************************
+
 **Theory - Articles**
 
 [https://www.scaler.com/topics/sliding-window-algorithm/](https://www.scaler.com/topics/sliding-window-algorithm/)
