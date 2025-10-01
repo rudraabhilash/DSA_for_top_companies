@@ -66,3 +66,7 @@
 
 More problems - 
 https://leetcode.com/problems/longest-string-chain/description - LIS variation
+
+https://leetcode.com/problems/maximize-the-profit-as-the-salesman/description/ - Knapsack with Binary search variation
+
+https://leetcode.com/problems/maximum-earnings-from-taxi/description/ - Knapsack with Binary search variation
