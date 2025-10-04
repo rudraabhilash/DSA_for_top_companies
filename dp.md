@@ -70,3 +70,7 @@ https://leetcode.com/problems/longest-string-chain/description - LIS variation
 https://leetcode.com/problems/maximize-the-profit-as-the-salesman/description/ - Knapsack with Binary search variation
 
 https://leetcode.com/problems/maximum-earnings-from-taxi/description/ - Knapsack with Binary search variation
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ - DP as given in question
+
+https://leetcode.com/problems/valid-parenthesis-string/?envType=problem-list-v2&envId=greedy - DP as given in question
